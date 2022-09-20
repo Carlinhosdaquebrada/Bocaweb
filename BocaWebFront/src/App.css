@@ -1,0 +1,38 @@
+body{
+  overflow-x: hidden;
+}
+
+nav .container-fluid{
+  background-color: #00008b;
+}
+.navbar-brand img{
+  width: auto;
+  height: 60px;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1.5fr));
+  gap: 40px;
+}
+
+.objeto-oda {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: trasform 100ms ease-in-out;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 40px;
+}
+
+.objeto-oda {
+  transform: scale(1.05);
+}
+
+footer{
+  margin-top: 50px;
+}
+
+footer .p-4{
+  background-color: #00008b;
+}
